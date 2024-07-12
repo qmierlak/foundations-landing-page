@@ -59,7 +59,10 @@ a,
     flex-shrink: 0;
 }
 .hero-section button {
-    background-color: blue;
+    background-color: rgb(26, 96, 143);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
 }
 .hero-section p{
     color: rgb(164, 176, 189);
@@ -67,6 +70,7 @@ a,
 h1 {
     font-size: 36px;
 }
+
 
 
 
