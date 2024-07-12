@@ -29,7 +29,10 @@ a {
     text-decoration: none;
 }
 .header-logo,
-a {
+.hero-image,
+a,
+.hero-callout h1,
+.hero-callout button {
     color: whitesmoke;
 }
 
@@ -39,12 +42,30 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 0px 24px;
+    gap: 16px;
 }
 .hero-image {
     height: 200px;
-    width: 600px;
-    text-align: center;
+    width: 400px;
     background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hero-section button {
+    background-color: blue;
+}
+.hero-section p{
+    color: rgb(164, 176, 189);
+}
+h1 {
+    font-size: 36px;
 }
 
 
