@@ -112,23 +112,39 @@ a,
 
 /** Quote section **/
 .quote-section {
+/**
+    
+    background-color: white;
+    flex: 1;
+    width: 100hv;
+**/
+    align-self: center;
+}
+.quote {
     display: flex;
     flex-direction: column;
     width: 500px;
-    align-self: center;
     padding: 48px;
+    align-self: center;
 /*    
     align-items: center;
     justify-content: center;
 */    
 }
-.quote-section p{
+.quote p{
     font-size: 24px;
     align-self: flex-start;
 
 }
-.quote-section h3 {
+.quote h3 {
     margin: 0;
     align-self: flex-end;
 }
 
+/** CTA section **/
+
+/** Footer section **/
+.footer {
+    display: flex;
+    justify-content: center;
+}
