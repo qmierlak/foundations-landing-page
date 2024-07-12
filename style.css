@@ -150,13 +150,18 @@ a,
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: white;
 }
 .cta-card {
     display: flex;
     justify-content: space-around;
-    width: 600px;
-    height: 200px;
+    width: 800px;
+    height: 100px;
     align-items: center;
+    background-color:#3882F6;
+    margin: 48px;
+    border-radius: 8px;
 }
 
 .cta-card button {
@@ -172,9 +177,10 @@ a,
     display: flex;
     align-items: center;
 }
-.cta-text {
+.cta-text h3,p{
     margin: 0;
     padding: 0;
+    color:antiquewhite;
 }
 
 
