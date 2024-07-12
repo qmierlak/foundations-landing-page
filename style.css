@@ -35,8 +35,17 @@ a {
 
 
 /** Hero Section **/
-
-
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-image {
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    background-color: grey;
+}
 
 
 
