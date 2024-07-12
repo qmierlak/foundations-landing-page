@@ -114,11 +114,15 @@ a,
 .quote-section {
 /**
     
-    background-color: white;
+    
     flex: 1;
     width: 100hv;
 **/
+    background-color: grey;
+    width: 100%;
     align-self: center;
+    justify-content: center;
+    display: flex;
 }
 .quote {
     display: flex;
@@ -143,8 +147,17 @@ a,
 
 /** CTA section **/
 
+
+
+
+
+
+
 /** Footer section **/
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 16px;
 }
