@@ -72,6 +72,7 @@ a,
     border: none;
     border-radius: 8px;
     padding: 8px 24px;
+    width: 100px;
 }
 .hero-section p{
     color: rgb(164, 176, 189);
@@ -82,14 +83,21 @@ a,
     margin: 0;
 
 }
+.hero-callout {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
 /** Info section **/
 .info-section {
     background-color: white;
+    padding: 36px;
 }
 .info-section h2{
     text-align: center;
-    padding: 24px;
+    margin-top: 0;
+    font-size: 30px;
 }
 .card-image {
     height: 150px;
@@ -102,6 +110,7 @@ a,
     justify-content: center;
     align-items: center;
     gap: 48px;
+    padding: 12px;
 }
 
 .card {
@@ -114,6 +123,7 @@ a,
     width: 150px;
     text-align: center;
     color: grey;
+    padding: 8px;
 }
 
 /** Quote section **/
