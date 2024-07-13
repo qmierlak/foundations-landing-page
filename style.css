@@ -1,10 +1,11 @@
 body {
-
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
 
 
-    background-color: rgb(56, 60, 92);
+    background-color: rgb(50, 52, 61);
     justify-content: center;
 }
 * {
@@ -12,14 +13,15 @@ body {
 }
 
 
+
 /** Header section **/
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    
+    justify-content: space-between;
     /* margin-bottom: 16px; */
-    padding: 2px 24px;
+    width: 1000px;
+    align-self: center;
 
 }
 .header-logo {
@@ -48,11 +50,12 @@ a,
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 1000px;
     margin-top: 48px;
     margin-bottom: 48px;
     padding: 0px 24px;
     gap: 16px;
+    align-self: center;
 }
 .hero-image {
     height: 200px;
@@ -72,9 +75,12 @@ a,
 }
 .hero-section p{
     color: rgb(164, 176, 189);
+    margin: 0;
 }
 .hero-section h1 {
     font-size: 36px;
+    margin: 0;
+
 }
 
 /** Info section **/
